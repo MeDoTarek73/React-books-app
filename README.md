@@ -1,6 +1,6 @@
-## Bookshelf Management App
+## Read Books App
 
-Welcome to the Bookshelf Management App! This application is designed to help you manage your personal library by providing features to list and update the books you've read.
+Welcome to the Bookshelf Management App! This application is designed to help you manage your library by providing features to list and update the books you've read.
 
 ### Features
 
