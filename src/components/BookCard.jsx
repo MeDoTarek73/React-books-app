@@ -18,10 +18,12 @@ function BookCard({ book }) {
     return (
         <>
             <div className="rounded-lg shadow-md overflow-hidden flex flex-col card">
-                <img src={book.imageLinks?.thumbnail}
-                    alt={book.title}
-                    className="w-full object-cover h-60 image-rendering-crisp-edges"
-                />
+                <div className="h-80">
+                    <img src={book.imageLinks?.thumbnail}
+                        alt={book.title}
+                        className="w-full object-cover h-full"
+                    />
+                </div>
 
                 <div className="p-4 flex-grow">
                     <h2 className="text-lg font-semibold mb-2">{book.title}</h2>

@@ -48,7 +48,7 @@ function BookList() {
     };
 
     const groupedBooks = useSelector(state => Array.isArray(state.books.filteredBooks) ? state.books.filteredBooks : [])
-        .reduce((acc, book) => { // Check if filteredBooks is an array
+        .reduce((acc, book) => {
             const shelf = book.shelf || 'none';
             acc[shelf] = acc[shelf] || [];
             acc[shelf].push(book);
